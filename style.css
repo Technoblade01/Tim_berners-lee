@@ -19,8 +19,8 @@ body {
     right: 0;
     left: 0;
     opacity: 0.83;
-    background: rgb(224,56,130);
-    background: radial-gradient(circle, rgba(224,56,130,1) 0%, rgba(0,112,245,1) 100%);
+    background: rgb(224, 56, 130);
+    background: radial-gradient(circle, rgba(224, 56, 130, 1) 0%, rgba(0, 112, 245, 1) 100%);
     display: table;
     width: 100%;
     height: 100%;
@@ -84,15 +84,25 @@ p {
 
 .links {
     float: left;
-    color: #C71585;
+    color: black;
     padding-top: 5px;
     padding-left: 9px;
     padding-bottom: 5px;
     font-family: 'Antonio';
     font-size: 20px;
 }
-.links:hover{
+
+.links:hover {
     color: dodgerblue;
     background-color: black;
     text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+.articles:hover{
+    color: fuchsia;
+}
+html{
+    scroll-behavior: smooth;
 }
