@@ -19,12 +19,12 @@ body {
     right: 0;
     left: 0;
     opacity: 0.83;
-    background: rgb(224, 56, 130);
-    background: radial-gradient(circle, rgba(224, 56, 130, 1) 0%, rgba(0, 112, 245, 1) 100%);
     display: table;
     width: 100%;
     height: 100%;
     z-index: 9;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 .parallax-inner {
@@ -60,7 +60,8 @@ h2 {
 
 .line {
     height: 6px;
-    background-color: #C71585;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     width: 70px;
     margin: 8px auto;
 }
@@ -75,34 +76,55 @@ p {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    top: 0px;
     z-index: 10;
     cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
 }
 
 .links {
     float: left;
     color: black;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: 'Antonio';
     font-size: 20px;
+    display: inline;
 }
 
 .links:hover {
     color: dodgerblue;
     background-color: black;
     text-decoration: underline;
+    font-size: 25px;
 }
-a{
+
+a {
     text-decoration: none;
+    color: white;
 }
-.articles:hover{
+
+.articles:hover {
     color: fuchsia;
 }
-html{
+
+html {
     scroll-behavior: smooth;
+}
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline;
+    color: blue;
+}
+#contact{
+    background: firebrick;
+}
+.1  a{
+    color: white;
+    text-shadow: none;
+}
+.1 h3{
+    display: inline;
 }
